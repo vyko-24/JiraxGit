@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perfil Personal</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Fondo de pantalla */
+    .hero {
+      background-image: url('https://images.wallpapersden.com/image/download/ghost-of-tsushima-hd-tsushima-tranquility_bmdtbmaUmZqaraWkpJRmbmdlrWZlbWU.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      position: relative;
+      color: white;
+    }
+    /* Overlay para mejorar la visibilidad del contenido */
+    .hero::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: 1;
+    }
+    /* Contenido sobrepuesto */
+    .hero .content {
+      position: relative;
+      z-index: 2;
+      text-align: center;
+      padding: 20px;
+    }
+    /* Estilo de la tarjeta de perfil */
+    .profile-card {
+      background: rgba(0, 0, 0, 0.5);
+      padding: 30px;
+      border-radius: 10px;
+      text-align: center;
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    .profile-card img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 5px solid white;
+      margin-bottom: 20px;
+    }
+    .social-icons a {
+      color: white;
+      margin: 0 10px;
+      font-size: 24px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Sección de fondo de pantalla y foto de perfil -->
+  <div class="hero">
+    <div class="content">
+      <div class="profile-card">
+        <img src="https://lumiere-a.akamaihd.net/v1/images/popcornpc_reveal_heroic_legal_4k_001_28f6b7aa.jpeg?region=0,0,3840,2160" alt="Foto de Perfil">
+        <h2>Víctor Barrera Ocampo</h2>
+        <p>Ingeniería en Desarrollo y Gestión de Software</p>
+      </div>
+    </div>
+    <div class="container py-5">
+    <h3>Hobbies</h3>
+    <ul class="list-group">
+      <li class="list-group-item">Jugar Videojuegos</li>
+      <li class="list-group-item">Leer</li>
+      <li class="list-group-item">Jugar con mi gata</li>
+      <li class="list-group-item">Escuchar música</li>
+    </ul>
+  </div>
+  </div>
+
+  <!-- Información de hobbies -->
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
